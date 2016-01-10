@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		878FD5B51C429FA700D77212 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 878FD5B41C429FA700D77212 /* main.m */; };
+		878FD5B81C429FA700D77212 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 878FD5B71C429FA700D77212 /* AppDelegate.m */; };
+		878FD5BB1C429FA700D77212 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878FD5BA1C429FA700D77212 /* ViewController.m */; };
+		878FD5BE1C429FA700D77212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878FD5BC1C429FA700D77212 /* Main.storyboard */; };
+		878FD5C01C429FA700D77212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878FD5BF1C429FA700D77212 /* Assets.xcassets */; };
+		878FD5C31C429FA700D77212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878FD5C11C429FA700D77212 /* LaunchScreen.storyboard */; };
+		878FD5CE1C429FA700D77212 /* komootTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 878FD5CD1C429FA700D77212 /* komootTests.m */; };
+		878FD5D91C429FA700D77212 /* komootUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 878FD5D81C429FA700D77212 /* komootUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		878FD5CA1C429FA700D77212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 878FD5A81C429FA700D77212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 878FD5AF1C429FA700D77212;
+			remoteInfo = komoot;
+		};
+		878FD5D51C429FA700D77212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 878FD5A81C429FA700D77212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 878FD5AF1C429FA700D77212;
+			remoteInfo = komoot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		878FD5B01C429FA700D77212 /* komoot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = komoot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		878FD5B41C429FA700D77212 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		878FD5B61C429FA700D77212 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		878FD5B71C429FA700D77212 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		878FD5B91C429FA700D77212 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		878FD5BA1C429FA700D77212 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		878FD5BD1C429FA700D77212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		878FD5BF1C429FA700D77212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		878FD5C21C429FA700D77212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		878FD5C41C429FA700D77212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878FD5C91C429FA700D77212 /* komootTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = komootTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		878FD5CD1C429FA700D77212 /* komootTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = komootTests.m; sourceTree = "<group>"; };
+		878FD5CF1C429FA700D77212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878FD5D41C429FA700D77212 /* komootUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = komootUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		878FD5D81C429FA700D77212 /* komootUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = komootUITests.m; sourceTree = "<group>"; };
+		878FD5DA1C429FA700D77212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		878FD5AD1C429FA700D77212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878FD5C61C429FA700D77212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878FD5D11C429FA700D77212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		878FD5A71C429FA700D77212 = {
+			isa = PBXGroup;
+			children = (
+				878FD5B21C429FA700D77212 /* komoot */,
+				878FD5CC1C429FA700D77212 /* komootTests */,
+				878FD5D71C429FA700D77212 /* komootUITests */,
+				878FD5B11C429FA700D77212 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		878FD5B11C429FA700D77212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				878FD5B01C429FA700D77212 /* komoot.app */,
+				878FD5C91C429FA700D77212 /* komootTests.xctest */,
+				878FD5D41C429FA700D77212 /* komootUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		878FD5B21C429FA700D77212 /* komoot */ = {
+			isa = PBXGroup;
+			children = (
+				878FD5B61C429FA700D77212 /* AppDelegate.h */,
+				878FD5B71C429FA700D77212 /* AppDelegate.m */,
+				878FD5B91C429FA700D77212 /* ViewController.h */,
+				878FD5BA1C429FA700D77212 /* ViewController.m */,
+				878FD5BC1C429FA700D77212 /* Main.storyboard */,
+				878FD5BF1C429FA700D77212 /* Assets.xcassets */,
+				878FD5C11C429FA700D77212 /* LaunchScreen.storyboard */,
+				878FD5C41C429FA700D77212 /* Info.plist */,
+				878FD5B31C429FA700D77212 /* Supporting Files */,
+			);
+			path = komoot;
+			sourceTree = "<group>";
+		};
+		878FD5B31C429FA700D77212 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				878FD5B41C429FA700D77212 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		878FD5CC1C429FA700D77212 /* komootTests */ = {
+			isa = PBXGroup;
+			children = (
+				878FD5CD1C429FA700D77212 /* komootTests.m */,
+				878FD5CF1C429FA700D77212 /* Info.plist */,
+			);
+			path = komootTests;
+			sourceTree = "<group>";
+		};
+		878FD5D71C429FA700D77212 /* komootUITests */ = {
+			isa = PBXGroup;
+			children = (
+				878FD5D81C429FA700D77212 /* komootUITests.m */,
+				878FD5DA1C429FA700D77212 /* Info.plist */,
+			);
+			path = komootUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		878FD5AF1C429FA700D77212 /* komoot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 878FD5DD1C429FA700D77212 /* Build configuration list for PBXNativeTarget "komoot" */;
+			buildPhases = (
+				878FD5AC1C429FA700D77212 /* Sources */,
+				878FD5AD1C429FA700D77212 /* Frameworks */,
+				878FD5AE1C429FA700D77212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = komoot;
+			productName = komoot;
+			productReference = 878FD5B01C429FA700D77212 /* komoot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		878FD5C81C429FA700D77212 /* komootTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 878FD5E01C429FA700D77212 /* Build configuration list for PBXNativeTarget "komootTests" */;
+			buildPhases = (
+				878FD5C51C429FA700D77212 /* Sources */,
+				878FD5C61C429FA700D77212 /* Frameworks */,
+				878FD5C71C429FA700D77212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				878FD5CB1C429FA700D77212 /* PBXTargetDependency */,
+			);
+			name = komootTests;
+			productName = komootTests;
+			productReference = 878FD5C91C429FA700D77212 /* komootTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		878FD5D31C429FA700D77212 /* komootUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 878FD5E31C429FA700D77212 /* Build configuration list for PBXNativeTarget "komootUITests" */;
+			buildPhases = (
+				878FD5D01C429FA700D77212 /* Sources */,
+				878FD5D11C429FA700D77212 /* Frameworks */,
+				878FD5D21C429FA700D77212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				878FD5D61C429FA700D77212 /* PBXTargetDependency */,
+			);
+			name = komootUITests;
+			productName = komootUITests;
+			productReference = 878FD5D41C429FA700D77212 /* komootUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		878FD5A81C429FA700D77212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alessandro dos Santos Pinto";
+				TargetAttributes = {
+					878FD5AF1C429FA700D77212 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					878FD5C81C429FA700D77212 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 878FD5AF1C429FA700D77212;
+					};
+					878FD5D31C429FA700D77212 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 878FD5AF1C429FA700D77212;
+					};
+				};
+			};
+			buildConfigurationList = 878FD5AB1C429FA700D77212 /* Build configuration list for PBXProject "komoot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 878FD5A71C429FA700D77212;
+			productRefGroup = 878FD5B11C429FA700D77212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				878FD5AF1C429FA700D77212 /* komoot */,
+				878FD5C81C429FA700D77212 /* komootTests */,
+				878FD5D31C429FA700D77212 /* komootUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		878FD5AE1C429FA700D77212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878FD5C31C429FA700D77212 /* LaunchScreen.storyboard in Resources */,
+				878FD5C01C429FA700D77212 /* Assets.xcassets in Resources */,
+				878FD5BE1C429FA700D77212 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878FD5C71C429FA700D77212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878FD5D21C429FA700D77212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		878FD5AC1C429FA700D77212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878FD5BB1C429FA700D77212 /* ViewController.m in Sources */,
+				878FD5B81C429FA700D77212 /* AppDelegate.m in Sources */,
+				878FD5B51C429FA700D77212 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878FD5C51C429FA700D77212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878FD5CE1C429FA700D77212 /* komootTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878FD5D01C429FA700D77212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878FD5D91C429FA700D77212 /* komootUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		878FD5CB1C429FA700D77212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 878FD5AF1C429FA700D77212 /* komoot */;
+			targetProxy = 878FD5CA1C429FA700D77212 /* PBXContainerItemProxy */;
+		};
+		878FD5D61C429FA700D77212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 878FD5AF1C429FA700D77212 /* komoot */;
+			targetProxy = 878FD5D51C429FA700D77212 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		878FD5BC1C429FA700D77212 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				878FD5BD1C429FA700D77212 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		878FD5C11C429FA700D77212 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				878FD5C21C429FA700D77212 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		878FD5DB1C429FA700D77212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		878FD5DC1C429FA700D77212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		878FD5DE1C429FA700D77212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = komoot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = delarge.beverlykills.komoot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		878FD5DF1C429FA700D77212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = komoot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = delarge.beverlykills.komoot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		878FD5E11C429FA700D77212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = komootTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = delarge.beverlykills.komootTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/komoot.app/komoot";
+			};
+			name = Debug;
+		};
+		878FD5E21C429FA700D77212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = komootTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = delarge.beverlykills.komootTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/komoot.app/komoot";
+			};
+			name = Release;
+		};
+		878FD5E41C429FA700D77212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = komootUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = delarge.beverlykills.komootUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = komoot;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		878FD5E51C429FA700D77212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = komootUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = delarge.beverlykills.komootUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = komoot;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		878FD5AB1C429FA700D77212 /* Build configuration list for PBXProject "komoot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878FD5DB1C429FA700D77212 /* Debug */,
+				878FD5DC1C429FA700D77212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		878FD5DD1C429FA700D77212 /* Build configuration list for PBXNativeTarget "komoot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878FD5DE1C429FA700D77212 /* Debug */,
+				878FD5DF1C429FA700D77212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		878FD5E01C429FA700D77212 /* Build configuration list for PBXNativeTarget "komootTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878FD5E11C429FA700D77212 /* Debug */,
+				878FD5E21C429FA700D77212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		878FD5E31C429FA700D77212 /* Build configuration list for PBXNativeTarget "komootUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878FD5E41C429FA700D77212 /* Debug */,
+				878FD5E51C429FA700D77212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 878FD5A81C429FA700D77212 /* Project object */;
+}
