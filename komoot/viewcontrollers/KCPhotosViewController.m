@@ -78,8 +78,6 @@
     
     [cell showPhotoCard:photo];
     
-    self.photosTableView.tableFooterView = [UIView new];
-    
     return cell;
 }
 
@@ -139,7 +137,7 @@
             [weakSelf presentError:error inView:self.view];
             return;
         }
-        
+        self.photosTableView.tableFooterView = [UIView new];
         [weakSelf updateTableViewWithNewPicture:object];
 
     }];
