@@ -6,13 +6,13 @@
 //  Copyright © 2016 Alessandro dos Santos Pinto. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "KCPhotosViewController.h"
 
-@interface ViewController ()
+@interface KCPhotosViewController ()
 
 @end
 
-@implementation ViewController
+@implementation KCPhotosViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

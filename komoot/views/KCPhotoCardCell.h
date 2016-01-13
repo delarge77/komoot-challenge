@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  KCPhotoCardCell.h
 //  komoot
 //
 //  Created by Alessandro dos santos pinto on 1/10/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface KCPhotoCardCell : UITableViewCell
 
 @end
-
