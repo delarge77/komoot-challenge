@@ -1,5 +1,5 @@
 //
-//  MapRect.h
+//  KCMapRect.h
 //  komoot
 //
 //  Created by Alessandro dos santos pinto on 1/11/16.

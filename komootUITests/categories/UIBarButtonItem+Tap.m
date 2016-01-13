@@ -7,7 +7,18 @@
 //
 
 #import "UIBarButtonItem+Tap.h"
+#import <KIF/KIF.h>
 
 @implementation UIBarButtonItem (Tap)
+
+- (void)tap
+{
+    if ([self target] && [self action]) {
+        
+        //Funciona mas gera um warning
+        [[self target] performSelector:[self action] withObject:self];
+    }
+}
+
 
 @end

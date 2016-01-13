@@ -7,7 +7,25 @@
 //
 
 #import "KCPhotoModel.h"
+#import "KCPhoto.h"
 
 @implementation KCPhotoModel
+
++ (NSDictionary *)JSONKeyPathsByPropertyKey {
+
+    return @{@"count":@"count",
+             @"hasMore":@"hasMore",
+             @"maplocation":@"map_location",
+             @"photos":@"photos"};
+}
+
++ (NSValueTransformer *)photosJSONTransformer {
+    return [MTLJSONAdapter arrayTransformerWithModelClass:[KCPhoto class]];
+}
+
++ (NSValueTransformer *)map_locationJSONTransformer {
+    return [MTLJSONAdapter dictionaryTransformerWithModelClass:[KCPhotoMapLocation class]];
+}
+
 
 @end

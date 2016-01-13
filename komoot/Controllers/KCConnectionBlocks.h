@@ -2,12 +2,12 @@
 //  KCConnectionBlocks.h
 //  komoot
 //
-//  Created by Alessandro dos santos pinto on 1/10/16.
+//  Created by Alessandro dos santos pinto on 1/11/16.
 //  Copyright © 2016 Alessandro dos Santos Pinto. All rights reserved.
 //
 
-#ifndef KCConnectionBlocks_h
-#define KCConnectionBlocks_h
+typedef void (^KCCompletionBlock)(NSError *error);
 
+typedef void (^KCObjectCompletionBlock)(id object, NSError *error);
 
-#endif /* KCConnectionBlocks_h */
+typedef void (^KCArrayCompletionBlock)(NSArray *array, NSError *error);

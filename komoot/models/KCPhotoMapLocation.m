@@ -10,4 +10,13 @@
 
 @implementation KCPhotoMapLocation
 
++ (NSDictionary *)JSONKeyPathsByPropertyKey {
+    
+    return @{@"lat":@"lat",
+             @"lon":@"lon",
+             @"panoramio_zoom":@"panoramio_zoom"};
+
+}
+
+
 @end

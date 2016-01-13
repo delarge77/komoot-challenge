@@ -6,8 +6,13 @@
 //  Copyright © 2016 Alessandro dos Santos Pinto. All rights reserved.
 //
 
-#import <KIF/KIF.h>
+#import "KIFUITestActor.h"
 
 @interface KIFUITestActor (KCTestUtils)
+
+- (UIBarButtonItem *)tryFindingRightBarButtonItem;
+- (UIBarButtonItem *)tryFindingLeftBarButtonItem;
+
+- (void)tapBackButton;
 
 @end

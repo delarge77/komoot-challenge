@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		872FB5611C44726B0075378A /* KCPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 872FB5601C44726B0075378A /* KCPhotoModel.m */; };
+		872FB5641C447ACB0075378A /* KCPhotoMapLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 872FB5631C447ACB0075378A /* KCPhotoMapLocation.m */; };
+		872FB5681C448C830075378A /* KCMapRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 872FB5671C448C830075378A /* KCMapRect.m */; };
+		872FB56A1C448CCC0075378A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872FB5691C448CCC0075378A /* MapKit.framework */; };
 		878FD5B51C429FA700D77212 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 878FD5B41C429FA700D77212 /* main.m */; };
 		878FD5B81C429FA700D77212 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 878FD5B71C429FA700D77212 /* AppDelegate.m */; };
-		878FD5BB1C429FA700D77212 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878FD5BA1C429FA700D77212 /* ViewController.m */; };
+		878FD5BB1C429FA700D77212 /* KCPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878FD5BA1C429FA700D77212 /* KCPhotosViewController.m */; };
 		878FD5BE1C429FA700D77212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878FD5BC1C429FA700D77212 /* Main.storyboard */; };
 		878FD5C01C429FA700D77212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878FD5BF1C429FA700D77212 /* Assets.xcassets */; };
 		878FD5C31C429FA700D77212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878FD5C11C429FA700D77212 /* LaunchScreen.storyboard */; };
 		878FD5CE1C429FA700D77212 /* komootTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 878FD5CD1C429FA700D77212 /* komootTests.m */; };
 		878FD5D91C429FA700D77212 /* komootUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 878FD5D81C429FA700D77212 /* komootUITests.m */; };
+		878FD5EB1C42A73100D77212 /* KCKomootClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 878FD5EA1C42A73100D77212 /* KCKomootClient.m */; };
+		878FD5F01C42A91300D77212 /* KCPhotosController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878FD5EF1C42A91300D77212 /* KCPhotosController.m */; };
+		878FD5F51C42D85500D77212 /* KCPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 878FD5F41C42D85500D77212 /* KCPhoto.m */; };
+		878FD5F91C42DBD500D77212 /* KCModelConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 878FD5F81C42DBD500D77212 /* KCModelConverter.m */; };
+		878FD5FB1C42DE6100D77212 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878FD5FA1C42DE6100D77212 /* CoreLocation.framework */; };
+		878FD5FF1C42E84000D77212 /* CLLocation+KCPhotoLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 878FD5FE1C42E84000D77212 /* CLLocation+KCPhotoLocation.m */; };
+		878FD6021C42E91200D77212 /* KCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878FD6011C42E91200D77212 /* KCBaseViewController.m */; };
+		878FD6061C4310AE00D77212 /* KCPhotoCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 878FD6051C4310AE00D77212 /* KCPhotoCardCell.m */; };
+		878FD6081C4310D600D77212 /* KCPhotoCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 878FD6071C4310D600D77212 /* KCPhotoCardCell.xib */; };
+		87B000F71C45D88E00DF91D0 /* KIFUITestActor+KCTestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B000F61C45D88E00DF91D0 /* KIFUITestActor+KCTestUtils.m */; };
+		87B000FD1C45DB7B00DF91D0 /* UIBarButtonItem+Tap.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B000FC1C45DB7B00DF91D0 /* UIBarButtonItem+Tap.m */; };
+		A9F2BFE96CCD98CD675AF36B /* libPods-komootTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC71AB8FDBB76E624C22D582 /* libPods-komootTests.a */; };
+		D6581D404DA76554D784CC16 /* libPods-komoot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5994235CC26D893975193F7D /* libPods-komoot.a */; };
+		D721C6540779364E88235E33 /* libPods-komootUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4998BE10D95A2A12116E8B04 /* libPods-komootUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +53,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33671133D0E0562E399C4720 /* Pods-komootTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-komootTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-komootTests/Pods-komootTests.debug.xcconfig"; sourceTree = "<group>"; };
+		353D36AA2FFD74A3ACB9BB23 /* Pods-komootTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-komootTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-komootTests/Pods-komootTests.release.xcconfig"; sourceTree = "<group>"; };
+		45D6B82B54613537ABDB23D7 /* Pods-komootUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-komootUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-komootUITests/Pods-komootUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4998BE10D95A2A12116E8B04 /* libPods-komootUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-komootUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5994235CC26D893975193F7D /* libPods-komoot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-komoot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A2A87D3EDF5F85E7DC96FF /* Pods-komootUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-komootUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-komootUITests/Pods-komootUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6AEDE018607C0F0275461114 /* Pods-komoot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-komoot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-komoot/Pods-komoot.debug.xcconfig"; sourceTree = "<group>"; };
+		872FB55F1C44726B0075378A /* KCPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KCPhotoModel.h; path = models/KCPhotoModel.h; sourceTree = "<group>"; };
+		872FB5601C44726B0075378A /* KCPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KCPhotoModel.m; path = models/KCPhotoModel.m; sourceTree = "<group>"; };
+		872FB5621C447ACB0075378A /* KCPhotoMapLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KCPhotoMapLocation.h; path = models/KCPhotoMapLocation.h; sourceTree = "<group>"; };
+		872FB5631C447ACB0075378A /* KCPhotoMapLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KCPhotoMapLocation.m; path = models/KCPhotoMapLocation.m; sourceTree = "<group>"; };
+		872FB5661C448C830075378A /* KCMapRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KCMapRect.h; path = helpers/KCMapRect.h; sourceTree = "<group>"; };
+		872FB5671C448C830075378A /* KCMapRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KCMapRect.m; path = helpers/KCMapRect.m; sourceTree = "<group>"; };
+		872FB5691C448CCC0075378A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		878FD5B01C429FA700D77212 /* komoot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = komoot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		878FD5B41C429FA700D77212 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		878FD5B61C429FA700D77212 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		878FD5B71C429FA700D77212 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		878FD5B91C429FA700D77212 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		878FD5BA1C429FA700D77212 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		878FD5B61C429FA700D77212 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Application/AppDelegate.h; sourceTree = "<group>"; };
+		878FD5B71C429FA700D77212 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Application/AppDelegate.m; sourceTree = "<group>"; };
+		878FD5B91C429FA700D77212 /* KCPhotosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KCPhotosViewController.h; path = viewcontrollers/KCPhotosViewController.h; sourceTree = "<group>"; };
+		878FD5BA1C429FA700D77212 /* KCPhotosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KCPhotosViewController.m; path = viewcontrollers/KCPhotosViewController.m; sourceTree = "<group>"; };
 		878FD5BD1C429FA700D77212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		878FD5BF1C429FA700D77212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		878FD5C21C429FA700D77212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +83,29 @@
 		878FD5D41C429FA700D77212 /* komootUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = komootUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		878FD5D81C429FA700D77212 /* komootUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = komootUITests.m; sourceTree = "<group>"; };
 		878FD5DA1C429FA700D77212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878FD5E91C42A73100D77212 /* KCKomootClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KCKomootClient.h; path = Controllers/client/KCKomootClient.h; sourceTree = "<group>"; };
+		878FD5EA1C42A73100D77212 /* KCKomootClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KCKomootClient.m; path = Controllers/client/KCKomootClient.m; sourceTree = "<group>"; };
+		878FD5EE1C42A91300D77212 /* KCPhotosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KCPhotosController.h; path = Controllers/KCPhotosController.h; sourceTree = "<group>"; };
+		878FD5EF1C42A91300D77212 /* KCPhotosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KCPhotosController.m; path = Controllers/KCPhotosController.m; sourceTree = "<group>"; };
+		878FD5F11C42AA4100D77212 /* KCConnectionBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KCConnectionBlocks.h; path = Controllers/KCConnectionBlocks.h; sourceTree = "<group>"; };
+		878FD5F31C42D85500D77212 /* KCPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KCPhoto.h; path = models/KCPhoto.h; sourceTree = "<group>"; };
+		878FD5F41C42D85500D77212 /* KCPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KCPhoto.m; path = models/KCPhoto.m; sourceTree = "<group>"; };
+		878FD5F71C42DBD500D77212 /* KCModelConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KCModelConverter.h; path = models/NBModelConverter/KCModelConverter.h; sourceTree = "<group>"; };
+		878FD5F81C42DBD500D77212 /* KCModelConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KCModelConverter.m; path = models/NBModelConverter/KCModelConverter.m; sourceTree = "<group>"; };
+		878FD5FA1C42DE6100D77212 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		878FD5FD1C42E84000D77212 /* CLLocation+KCPhotoLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CLLocation+KCPhotoLocation.h"; path = "categories/CLLocation+KCPhotoLocation.h"; sourceTree = "<group>"; };
+		878FD5FE1C42E84000D77212 /* CLLocation+KCPhotoLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CLLocation+KCPhotoLocation.m"; path = "categories/CLLocation+KCPhotoLocation.m"; sourceTree = "<group>"; };
+		878FD6001C42E91200D77212 /* KCBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KCBaseViewController.h; path = viewcontrollers/KCBaseViewController.h; sourceTree = "<group>"; };
+		878FD6011C42E91200D77212 /* KCBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KCBaseViewController.m; path = viewcontrollers/KCBaseViewController.m; sourceTree = "<group>"; };
+		878FD6041C4310AE00D77212 /* KCPhotoCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KCPhotoCardCell.h; path = views/KCPhotoCardCell.h; sourceTree = "<group>"; };
+		878FD6051C4310AE00D77212 /* KCPhotoCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KCPhotoCardCell.m; path = views/KCPhotoCardCell.m; sourceTree = "<group>"; };
+		878FD6071C4310D600D77212 /* KCPhotoCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KCPhotoCardCell.xib; path = views/KCPhotoCardCell.xib; sourceTree = "<group>"; };
+		87B000F51C45D88E00DF91D0 /* KIFUITestActor+KCTestUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFUITestActor+KCTestUtils.h"; sourceTree = "<group>"; };
+		87B000F61C45D88E00DF91D0 /* KIFUITestActor+KCTestUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFUITestActor+KCTestUtils.m"; sourceTree = "<group>"; };
+		87B000FB1C45DB7B00DF91D0 /* UIBarButtonItem+Tap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+Tap.h"; path = "categories/UIBarButtonItem+Tap.h"; sourceTree = "<group>"; };
+		87B000FC1C45DB7B00DF91D0 /* UIBarButtonItem+Tap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+Tap.m"; path = "categories/UIBarButtonItem+Tap.m"; sourceTree = "<group>"; };
+		DC71AB8FDBB76E624C22D582 /* libPods-komootTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-komootTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDDCB83DB75C13BDB68EB24 /* Pods-komoot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-komoot.release.xcconfig"; path = "Pods/Target Support Files/Pods-komoot/Pods-komoot.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +113,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872FB56A1C448CCC0075378A /* MapKit.framework in Frameworks */,
+				878FD5FB1C42DE6100D77212 /* CoreLocation.framework in Frameworks */,
+				D6581D404DA76554D784CC16 /* libPods-komoot.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F2BFE96CCD98CD675AF36B /* libPods-komootTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +131,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D721C6540779364E88235E33 /* libPods-komootUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		872FB5651C448C440075378A /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				872FB5661C448C830075378A /* KCMapRect.h */,
+				872FB5671C448C830075378A /* KCMapRect.m */,
+			);
+			name = helpers;
+			sourceTree = "<group>";
+		};
 		878FD5A71C429FA700D77212 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +154,8 @@
 				878FD5CC1C429FA700D77212 /* komootTests */,
 				878FD5D71C429FA700D77212 /* komootUITests */,
 				878FD5B11C429FA700D77212 /* Products */,
+				93F2D808114C684EE98D2AF5 /* Pods */,
+				D56C0F72566A4DC429A35AFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +172,13 @@
 		878FD5B21C429FA700D77212 /* komoot */ = {
 			isa = PBXGroup;
 			children = (
-				878FD5B61C429FA700D77212 /* AppDelegate.h */,
-				878FD5B71C429FA700D77212 /* AppDelegate.m */,
-				878FD5B91C429FA700D77212 /* ViewController.h */,
-				878FD5BA1C429FA700D77212 /* ViewController.m */,
+				878FD6031C43102C00D77212 /* views */,
+				878FD5FC1C42E73A00D77212 /* categories */,
+				878FD5F21C42D7DE00D77212 /* models */,
+				872FB5651C448C440075378A /* helpers */,
+				878FD5E71C42A12300D77212 /* Application */,
+				878FD5E81C42A66800D77212 /* Controllers */,
+				878FD5E61C42A0AF00D77212 /* viewcontrollers */,
 				878FD5BC1C429FA700D77212 /* Main.storyboard */,
 				878FD5BF1C429FA700D77212 /* Assets.xcassets */,
 				878FD5C11C429FA700D77212 /* LaunchScreen.storyboard */,
@@ -136,8 +210,127 @@
 			children = (
 				878FD5D81C429FA700D77212 /* komootUITests.m */,
 				878FD5DA1C429FA700D77212 /* Info.plist */,
+				87B000FA1C45DB3A00DF91D0 /* categories */,
 			);
 			path = komootUITests;
+			sourceTree = "<group>";
+		};
+		878FD5E61C42A0AF00D77212 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				878FD6001C42E91200D77212 /* KCBaseViewController.h */,
+				878FD6011C42E91200D77212 /* KCBaseViewController.m */,
+				878FD5B91C429FA700D77212 /* KCPhotosViewController.h */,
+				878FD5BA1C429FA700D77212 /* KCPhotosViewController.m */,
+			);
+			name = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		878FD5E71C42A12300D77212 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				878FD5B61C429FA700D77212 /* AppDelegate.h */,
+				878FD5B71C429FA700D77212 /* AppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		878FD5E81C42A66800D77212 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				878FD5EC1C42A73A00D77212 /* client */,
+				878FD5F11C42AA4100D77212 /* KCConnectionBlocks.h */,
+				878FD5EE1C42A91300D77212 /* KCPhotosController.h */,
+				878FD5EF1C42A91300D77212 /* KCPhotosController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		878FD5EC1C42A73A00D77212 /* client */ = {
+			isa = PBXGroup;
+			children = (
+				878FD5E91C42A73100D77212 /* KCKomootClient.h */,
+				878FD5EA1C42A73100D77212 /* KCKomootClient.m */,
+			);
+			name = client;
+			sourceTree = "<group>";
+		};
+		878FD5F21C42D7DE00D77212 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				878FD5F61C42DB9700D77212 /* KCModelConverter */,
+				872FB55F1C44726B0075378A /* KCPhotoModel.h */,
+				872FB5601C44726B0075378A /* KCPhotoModel.m */,
+				872FB5621C447ACB0075378A /* KCPhotoMapLocation.h */,
+				872FB5631C447ACB0075378A /* KCPhotoMapLocation.m */,
+				878FD5F31C42D85500D77212 /* KCPhoto.h */,
+				878FD5F41C42D85500D77212 /* KCPhoto.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		878FD5F61C42DB9700D77212 /* KCModelConverter */ = {
+			isa = PBXGroup;
+			children = (
+				878FD5F71C42DBD500D77212 /* KCModelConverter.h */,
+				878FD5F81C42DBD500D77212 /* KCModelConverter.m */,
+			);
+			name = KCModelConverter;
+			sourceTree = "<group>";
+		};
+		878FD5FC1C42E73A00D77212 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				878FD5FD1C42E84000D77212 /* CLLocation+KCPhotoLocation.h */,
+				878FD5FE1C42E84000D77212 /* CLLocation+KCPhotoLocation.m */,
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
+		878FD6031C43102C00D77212 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				878FD6041C4310AE00D77212 /* KCPhotoCardCell.h */,
+				878FD6051C4310AE00D77212 /* KCPhotoCardCell.m */,
+				878FD6071C4310D600D77212 /* KCPhotoCardCell.xib */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		87B000FA1C45DB3A00DF91D0 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				87B000F51C45D88E00DF91D0 /* KIFUITestActor+KCTestUtils.h */,
+				87B000F61C45D88E00DF91D0 /* KIFUITestActor+KCTestUtils.m */,
+				87B000FB1C45DB7B00DF91D0 /* UIBarButtonItem+Tap.h */,
+				87B000FC1C45DB7B00DF91D0 /* UIBarButtonItem+Tap.m */,
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
+		93F2D808114C684EE98D2AF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AEDE018607C0F0275461114 /* Pods-komoot.debug.xcconfig */,
+				DDDDCB83DB75C13BDB68EB24 /* Pods-komoot.release.xcconfig */,
+				33671133D0E0562E399C4720 /* Pods-komootTests.debug.xcconfig */,
+				353D36AA2FFD74A3ACB9BB23 /* Pods-komootTests.release.xcconfig */,
+				45D6B82B54613537ABDB23D7 /* Pods-komootUITests.debug.xcconfig */,
+				59A2A87D3EDF5F85E7DC96FF /* Pods-komootUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D56C0F72566A4DC429A35AFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				872FB5691C448CCC0075378A /* MapKit.framework */,
+				878FD5FA1C42DE6100D77212 /* CoreLocation.framework */,
+				5994235CC26D893975193F7D /* libPods-komoot.a */,
+				DC71AB8FDBB76E624C22D582 /* libPods-komootTests.a */,
+				4998BE10D95A2A12116E8B04 /* libPods-komootUITests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +340,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 878FD5DD1C429FA700D77212 /* Build configuration list for PBXNativeTarget "komoot" */;
 			buildPhases = (
+				F446E844D9481A2176554851 /* Check Pods Manifest.lock */,
 				878FD5AC1C429FA700D77212 /* Sources */,
 				878FD5AD1C429FA700D77212 /* Frameworks */,
 				878FD5AE1C429FA700D77212 /* Resources */,
+				1B02CFB1D98BEC0D6A766C79 /* Embed Pods Frameworks */,
+				6FAB5B81179A67EBB666F6FA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +360,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 878FD5E01C429FA700D77212 /* Build configuration list for PBXNativeTarget "komootTests" */;
 			buildPhases = (
+				BEEAC3A46127D49FC7948B0A /* Check Pods Manifest.lock */,
 				878FD5C51C429FA700D77212 /* Sources */,
 				878FD5C61C429FA700D77212 /* Frameworks */,
 				878FD5C71C429FA700D77212 /* Resources */,
+				AB650893AACB74153DD8D64C /* Embed Pods Frameworks */,
+				08B644FC0BC5E279AA1771EE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +381,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 878FD5E31C429FA700D77212 /* Build configuration list for PBXNativeTarget "komootUITests" */;
 			buildPhases = (
+				C5E2A40CD82E572CAC7B03B7 /* Check Pods Manifest.lock */,
 				878FD5D01C429FA700D77212 /* Sources */,
 				878FD5D11C429FA700D77212 /* Frameworks */,
 				878FD5D21C429FA700D77212 /* Resources */,
+				05F709D1B45B0199F01523B4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +408,12 @@
 				TargetAttributes = {
 					878FD5AF1C429FA700D77212 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = LZASXEKJ7F;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					878FD5C81C429FA700D77212 = {
 						CreatedOnToolsVersion = 7.2;
@@ -223,7 +430,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = 878FD5A71C429FA700D77212;
@@ -245,6 +451,7 @@
 			files = (
 				878FD5C31C429FA700D77212 /* LaunchScreen.storyboard in Resources */,
 				878FD5C01C429FA700D77212 /* Assets.xcassets in Resources */,
+				878FD6081C4310D600D77212 /* KCPhotoCardCell.xib in Resources */,
 				878FD5BE1C429FA700D77212 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,12 +472,145 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05F709D1B45B0199F01523B4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-komootUITests/Pods-komootUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08B644FC0BC5E279AA1771EE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-komootTests/Pods-komootTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B02CFB1D98BEC0D6A766C79 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-komoot/Pods-komoot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FAB5B81179A67EBB666F6FA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-komoot/Pods-komoot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB650893AACB74153DD8D64C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-komootTests/Pods-komootTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEEAC3A46127D49FC7948B0A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5E2A40CD82E572CAC7B03B7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F446E844D9481A2176554851 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		878FD5AC1C429FA700D77212 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				878FD5BB1C429FA700D77212 /* ViewController.m in Sources */,
+				878FD6061C4310AE00D77212 /* KCPhotoCardCell.m in Sources */,
+				872FB5681C448C830075378A /* KCMapRect.m in Sources */,
+				872FB5641C447ACB0075378A /* KCPhotoMapLocation.m in Sources */,
+				878FD5F51C42D85500D77212 /* KCPhoto.m in Sources */,
+				878FD5F91C42DBD500D77212 /* KCModelConverter.m in Sources */,
+				878FD5BB1C429FA700D77212 /* KCPhotosViewController.m in Sources */,
+				878FD5FF1C42E84000D77212 /* CLLocation+KCPhotoLocation.m in Sources */,
+				878FD5F01C42A91300D77212 /* KCPhotosController.m in Sources */,
+				878FD5EB1C42A73100D77212 /* KCKomootClient.m in Sources */,
+				878FD6021C42E91200D77212 /* KCBaseViewController.m in Sources */,
+				872FB5611C44726B0075378A /* KCPhotoModel.m in Sources */,
 				878FD5B81C429FA700D77212 /* AppDelegate.m in Sources */,
 				878FD5B51C429FA700D77212 /* main.m in Sources */,
 			);
@@ -288,6 +628,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87B000F71C45D88E00DF91D0 /* KIFUITestActor+KCTestUtils.m in Sources */,
+				87B000FD1C45DB7B00DF91D0 /* UIBarButtonItem+Tap.m in Sources */,
 				878FD5D91C429FA700D77212 /* komootUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,28 +751,37 @@
 		};
 		878FD5DE1C429FA700D77212 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AEDE018607C0F0275461114 /* Pods-komoot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = komoot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = delarge.beverlykills.komoot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		878FD5DF1C429FA700D77212 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDDDCB83DB75C13BDB68EB24 /* Pods-komoot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = komoot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = delarge.beverlykills.komoot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		878FD5E11C429FA700D77212 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33671133D0E0562E399C4720 /* Pods-komootTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = komootTests/Info.plist;
@@ -443,6 +794,7 @@
 		};
 		878FD5E21C429FA700D77212 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 353D36AA2FFD74A3ACB9BB23 /* Pods-komootTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = komootTests/Info.plist;
@@ -455,6 +807,7 @@
 		};
 		878FD5E41C429FA700D77212 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D6B82B54613537ABDB23D7 /* Pods-komootUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = komootUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -467,6 +820,7 @@
 		};
 		878FD5E51C429FA700D77212 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59A2A87D3EDF5F85E7DC96FF /* Pods-komootUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = komootUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -496,6 +850,7 @@
 				878FD5DF1C429FA700D77212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		878FD5E01C429FA700D77212 /* Build configuration list for PBXNativeTarget "komootTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +859,7 @@
 				878FD5E21C429FA700D77212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		878FD5E31C429FA700D77212 /* Build configuration list for PBXNativeTarget "komootUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +868,7 @@
 				878FD5E51C429FA700D77212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

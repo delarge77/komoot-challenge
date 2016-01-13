@@ -10,4 +10,6 @@
 
 @interface UIBarButtonItem (Tap)
 
+- (void)tap;
+
 @end
